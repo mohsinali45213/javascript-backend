@@ -1,3 +1,5 @@
+//api status code
+
 class ApiResponse {
   constructor(statusCode, data, massage = "Success") {
     this.statusCode = statusCode;
